@@ -1,0 +1,12 @@
+import { EventEmitter, AfterContentInit, TemplateRef, ChangeDetectorRef } from '@angular/core';
+export declare class IgxSimpleDefaultTooltipComponent implements AfterContentInit {
+    private _changeDetectorRef;
+    tooltip: TemplateRef<any>;
+    labelText: any;
+    constructor(_changeDetectorRef: ChangeDetectorRef);
+    ensureDefaultTooltip(gauge: any): void;
+    getLabel(context: any): any;
+    onContentReady: EventEmitter<any>;
+    ngAfterContentInit(): void;
+    static register(): void;
+}

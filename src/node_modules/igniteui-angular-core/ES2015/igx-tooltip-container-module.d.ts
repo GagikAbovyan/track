@@ -1,0 +1,3 @@
+export declare class IgxTooltipContainerModule {
+    constructor();
+}

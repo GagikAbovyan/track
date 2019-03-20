@@ -1,0 +1,13 @@
+import { TemplateRef, ChangeDetectorRef } from '@angular/core';
+export declare class IgxTooltipContainerComponent {
+    private _changeDetectorRef;
+    constructor(_changeDetectorRef: ChangeDetectorRef);
+    private _tooltipContent;
+    private _template;
+    template: TemplateRef<any>;
+    private _containerTemplate;
+    containerTemplate: TemplateRef<any>;
+    private _context;
+    context: any;
+    static register(): void;
+}

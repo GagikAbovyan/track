@@ -1,0 +1,11 @@
+import { TemplateRef, ChangeDetectorRef, ViewContainerRef } from '@angular/core';
+export declare class IgxTemplateContentComponent {
+    private _changeDetectorRef;
+    viewContainer: ViewContainerRef;
+    constructor(_changeDetectorRef: ChangeDetectorRef, viewContainer: ViewContainerRef);
+    private _template;
+    template: TemplateRef<any>;
+    private _context;
+    context: any;
+    markChanged(): void;
+}
